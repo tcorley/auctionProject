@@ -1,0 +1,288 @@
+
+body {
+	background: #CC5500 !important;
+}
+
+.content {
+    padding-top: 50px;
+	background-color: #D9C89E;
+    clear:both;
+    text-align:center;
+    overflow:auto;
+}
+
+h1, h3 {
+    text-align:center;
+    clear:both;
+}
+
+.user_separator {
+    border-bottom: 4px solid;
+}
+/*box model*/
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+	border: 1px solid;
+	margin-left: -258px;
+	margin-top: -161px;
+	text-align: center;
+    padding:60px 160px;
+    background-color: #D9C89E;
+    /*box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px rgba(0, 0, 0, 0.15) inset;*/
+}
+
+* {
+	font-family: 'Gafata', "Trebuchet MS",sans-serif;
+}
+
+/*items that are displayed on other pages but are not specifically an item page*/
+/*also, box model*/
+.item_default {
+	background-color: white;
+    text-align:center;
+    padding: 50px 50px;
+    margin: 20px 20px;
+}
+
+/*.navbar {
+    width: 100%;
+    list-style:none;
+    margin-right: 100px;
+}
+
+.navbar li {
+    float: left;
+    padding: 0px 50px;
+    border: 1px solid;
+    text-align:center;
+    background-color: #D9C89E
+}
+
+.navbar a {
+    text-decoration:none;
+}*/
+
+/*.navbar .go_right {
+    float:right;
+    border:none;
+    margin-right: 60px;
+}*/
+
+.item_pic {
+    height: 200px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.page_nav {
+    clear:both;
+    text-align:center;
+}
+
+.browse_bar {
+    float:left;
+}
+
+.item_other {
+    text-align:center;
+}
+
+.right {
+    float:right !important;
+    margin-right: 20px;
+}
+
+textarea {
+    text-align: left;
+    resize: none;
+}
+
+.warning {
+    color: red;
+    background-color: black;
+}
+
+.login {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    height:240px;
+    width:70%;
+}
+.goodtogo {
+    color: green;
+    background-color: black;
+}
+
+table {
+    width:350px;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+.button {
+    background-color: red;
+}
+
+.payment,th,tr,td {
+    border: 1px solid;
+    border-collapse: collapse;
+    width:750px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-decoration: none;
+}
+
+#userSideMenu {
+    /*float: left;*/
+    clear:both;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    margin-top: 30px;
+    margin-left:4px;
+    padding-left:5px;
+    padding-right:5px;
+    border: 1px solid black;
+}
+/*
+html, body, #bg {
+    height:100%;
+    width:100%;
+}
+
+#bg {
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    overflow:hidden;
+    z-index:0;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#bg img {
+    width:100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+*/
+body.modal-open #wrap{
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+  
+.modal-backdrop {background: #f7f7f7;}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.caption div {
+    box-shadow: 0 0 5px #C8C8C8;
+    transition: all 0.3s ease 0s;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -30px;
+}
+
+#push {
+    height:30px;
+}
+
+@media (max-width: 767px) {
+    #footer {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
